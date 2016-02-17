@@ -14,7 +14,14 @@ body{
 a{
     font-style: none;
     text-decoration: none;
+    color:#ffffff;
+    
 }
+
+a:hover{
+    text-decoration: underline;
+}
+
 header{
     margin: 0;
     padding: 0;
