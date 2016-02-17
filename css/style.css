@@ -8,6 +8,7 @@ body{
     padding: 0;
     width: 100%;
     height: 100%;
+    background-color: #edeeef;
     
 }
 header{
@@ -59,13 +60,8 @@ main{
     height: 100%;
     margin: 0 auto;
     padding: 0;
-    background-color: antiquewhite;
-}
-.intro{
-    width: 100%;
-    text-align: center;
-    background-color: #ffffff;
-    
+    background-color: #edeeef;
+    box-sizing: border-box;
 }
 #sec_text{
     margin: 0 auto;
@@ -76,4 +72,79 @@ main{
     color:#898989;
     text-align: center;
     border: solid #fff;
+}
+.intro{
+    width: 100%;
+    text-align: center;
+    background-color: #edeeef;
+}
+
+#body{
+    margin-bottom: 10px;
+    padding: 40px;
+    background-color: #edeeef;
+    border: solid #fff;
+    width: 90%;
+    height: 250px;
+}
+
+#body_image{
+    margin: auto 0;
+    padding: 15px;
+    width: 30%;
+    height: 100%;
+    float: left;
+   
+}
+#p1{
+    margin: auto 0;
+    padding: 0;
+    width: 60%;
+    height: 100%;
+    float: right;
+    font-size: 15px;
+    text-align: center;
+    
+}
+.conclu{
+    width: 100%;
+    
+}
+section>nav{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    height: 200px;
+}
+section>nav>ul{
+    list-style: none;
+    display: inline-block;
+    width: 100%;
+    margin: auto 0;
+    padding:5px;
+}
+section>nav>ul>li{
+    margin: 0;
+    padding: 10px;
+    display: inline-block;
+    text-transform: capitalize;
+    font-size:2.5rem;
+    color: #898989;
+}
+footer{
+    width: 80%;
+    height: 5rem;
+    margin: auto;
+    padding: 15px;
+    display: block;
+    box-sizing: border-box;
+    background-color: #5a6d95;
+    color: #fff;
+    text-align: center;
+
+}
+span{
+    display: block;
+    font-size: 1.3rem
+    
 }
