@@ -22,6 +22,10 @@ header{
     height: 15rem;
     background-color: #5a6d95 ;
 }
+a{
+    text-decoration: none;
+    
+}
 header>a>img{
     margin:0 auto;
     width: 24.3rem;
@@ -29,10 +33,9 @@ header>a>img{
     
 }
 hr{
-    color: #ffffff;
+    color: #fff;
     height: .3rem;
-    opacity: 0.5;
-       
+    opacity: 0.5%;
 }
 header>nav{
     width: 100%;
@@ -57,8 +60,12 @@ header>nav>ul>li{
     color: #ffffff; 
 }
 #anchor1{
+<<<<<<< HEAD
+    color:#fff;
+=======
     color: #ffffff;
     
+>>>>>>> refs/remotes/origin/gh-pages
 }
 main{
     width: 80%;
@@ -121,6 +128,9 @@ main{
 .conclu{
     width: 100%;
     
+}
+#anchor2{
+    color:#898989;
 }
 section>nav{
     width: 100%;
