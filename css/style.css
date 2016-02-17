@@ -11,6 +11,10 @@ body{
     background-color: #edeeef;
     
 }
+a{
+    font-style: none;
+    text-decoration: none;
+}
 header{
     margin: 0;
     padding: 0;
@@ -56,7 +60,12 @@ header>nav>ul>li{
     color: #ffffff; 
 }
 #anchor1{
+<<<<<<< HEAD
     color:#fff;
+=======
+    color: #ffffff;
+    
+>>>>>>> refs/remotes/origin/gh-pages
 }
 main{
     width: 80%;
@@ -66,20 +75,27 @@ main{
     background-color: #edeeef;
     box-sizing: border-box;
 }
+.intro{
+    width: 100%;
+    text-align: center;
+    background-color: #edeeef;
+}
 #sec_text{
     margin: 0 auto;
     padding: 0;
+    width: 95%;
     text-transform: uppercase;
     font-size: 30px;
     background-color:#efefef;
     color:#898989;
     text-align: center;
-    border: solid #fff;
+    border: solid #fff 4px;
 }
-.intro{
-    width: 100%;
-    text-align: center;
-    background-color: #edeeef;
+
+#image1{
+    width: 90%;
+    border: solid #fff 5px;
+    
 }
 
 #body{
@@ -136,6 +152,9 @@ section>nav>ul>li{
     text-transform: capitalize;
     font-size:2.5rem;
     color: #898989;
+}
+#anchor2{
+    color:#898989;
 }
 footer{
     width: 80%;
